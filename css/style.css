@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Roboto;
+    padding-top: 36px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.site-header {
+    height: 100px;
+    margin: 0 auto;
+}
+
+.site-header .logo {
+    padding-top: 15px;
+    float: left;
+}
+
+.site-header .menu {
+    float: right;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    height: 100px;
+    line-height: 90px;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.menu .menu-item a {
+    text-decoration: none;
+    width: 300px;
+    height: 14px;
+    color: #303030;
+    font-family: Roboto;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+/*main*/
+
+.first {
+    height: 825px;
+}
+
+.text-black {
+    float: left;
+    padding-top: 150px;
+    width: 618px;
+    color: #303030;
+    font-family: Raleway;
+    font-weight: 900;
+   
+    text-transform: uppercase;
+}
+
+.ear {
+    float: right;
+    padding-top: 120px;
+}
+
+p {
+    text-align: right;
+    margin: 52px;
+    font-size: 20px;
+    width: 571px;
+    height: 95px;
+    color: #303030;
+    font-family: serif;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+.btn {
+    float: right;
+    width: 160px;
+    color: #e10011;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.full {
+    margin: 0;
+    padding:100px 0;
+    text-align: right;
+    
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.full li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: #303030;
+    border-radius: 50%;
+}
+
+.last a {
+    width: 11px;
+    height: 11px;
+}
+
+.last a:hover {
+    color: red;
+}
